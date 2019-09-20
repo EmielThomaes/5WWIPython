@@ -17,4 +17,3 @@ discriminant = (b**2) - (4 * a * c)
 # uitvoer
 print(discriminant)
 #--------------------------------------
-
