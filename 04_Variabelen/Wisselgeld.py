@@ -25,5 +25,4 @@ eurocent = eurocent % 1
 
 print(aantal_muntstukken, eurocent)
 
-
 # uitvoer
