@@ -1,7 +1,7 @@
 # invoer
 
-a = float(input('A: '))
-b = float(input('B: '))
+a = int(input('A: '))
+b = int(input('B: '))
 
 # berekening
 
