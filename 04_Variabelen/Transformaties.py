@@ -1,12 +1,14 @@
 # invoer
 
 a = float(input('A: '))
-b = flaot(input('B: '))
+b = float(input('B: '))
 
 # berekening
 
-f_x = f(x) = 2(x - 3)^2 + 4
+f = 'f(x) = 2(x - 3)^2 + 4'
+g = 'g(x) = 2(x - ' + str(3 + a) + ')^2 + ' + str(4 + b)
 
 # uitvoer
 
-print(f_x)
+print(f)
+print(g)
