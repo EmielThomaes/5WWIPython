@@ -1,6 +1,6 @@
 # invoer
 
-aantal_marsdagen = int(input('Geef het aantal Marsdagen: '))
+aantal_marsdagen = int(input('Geef het aantal Marsdagen (sol): '))
 
 # berekening
 
