@@ -1,24 +1,22 @@
 # invoer
 
-aantal_marsdagen = int(input('Geef het aantal Marsdagen (sol): '))
+aantal_sol = int(input('Geef het aantal sol (marsdagen): '))
 
 # berekening
 
-invoer = int(aantal_marsdagen)
+aantal_sol_seconden = aantal_sol * 88775.244
 
-tijd_aarde_seconden = 88775.244 * aantal_marsdagen
+aantal_dagen_aarde = int(aantal_sol_seconden // (24 * 60 * 60))
+rest_seconden_sol = aantal_sol_seconden % (24 * 60 * 60)
 
-aantal_aarde_dagen = tijd_aarde_seconden // 86400
-tijd_aarde_seconden %= 86400
+aantal_uren_aarde = int(rest_seconden_sol // (60 * 60))
+rest_seconden_sol %= (60 * 60)
 
-aantal_aarde_uren = tijd_aarde_seconden // 2340
-tijd_aarde_seconden %= 2340
+aantal_minuten_aarde = int(rest_seconden_sol // 60)
+rest_seconden_sol %= 60
 
-aantal_aarde_seconden = int(tijd_aarde_seconden) + 1
-
+aantal_seconden_aarde = int(rest_seconden_sol)
 
 # uitvoer
 
-print(int(aantal_aarde_dagen))
-print(int(aantal_aarde_uren))
-print(int(aantal_aarde_seconden))
+print(str(aantal_sol) + ' sol = ' + str(aantal_dagen_aarde) + ' dagen, ' + str(aantal_uren_aarde) + ' uren, ' + str(aantal_minuten_aarde) + ' minuten en ' + str(aantal_seconden_aarde) + ' seconden')
