@@ -1,1 +1,0 @@
-print('\N{LESS-THAN OR EQUAL TO}')
