@@ -20,3 +20,8 @@ elif windsnelheid >= 250:
 # uitvoer
 
 print(uitvoer)
+
+# omgekeerd vanaf 250 werken -> kortere code
+# if windsnelheid >= 250:
+# elif windsnelheid >= 210:
+# ...
