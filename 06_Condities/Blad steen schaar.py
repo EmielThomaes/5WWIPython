@@ -10,10 +10,14 @@ if speler_1 == speler_2:
 elif speler_1 < speler_2:
     if speler_1 == 'schaar':
         uitvoer = 'speler 2 wint'
+    elif speler_1 == 'blad' and speler_2 == 'schaar':
+        uitvoer = 'speler 2 wint'
     else:
         uitvoer = 'speler 1 wint'
 elif speler_1 > speler_2:
     if speler_2 == 'schaar':
+        uitvoer = 'speler 1 wint'
+    elif speler_2 == 'blad' and speler_1 == 'schaar':
         uitvoer = 'speler 1 wint'
     else:
         uitvoer = 'speler 2 wint'
