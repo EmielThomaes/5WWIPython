@@ -9,14 +9,7 @@ dobbelsteen_2_verdediger = int(input('dobbelsteen 2 verdediger = '))
 
 # berekening
 
-if dobbelsteen_1_verdediger > dobbelsteen_2_verdediger:
-    grootste_ds_verdediger = dobbelsteen_1_verdediger
-    kleinste_ds_verdediger = dobbelsteen_2_verdediger
-else:
-    grootste_ds_verdediger = dobbelsteen_2_verdediger
-    kleinste_ds_verdediger = dobbelsteen_1_verdediger
 
-if dobbelsteen_1_aanvaller > dobbelsteen_2_aanvaller and dobbels
 
 # uitvoer
 
