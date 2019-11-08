@@ -43,3 +43,8 @@ print(uitvoer)
 #        uitvoer = 'speler 1 wint'
 #    else:
 #        uitvoer = 'speler 2 wint'
+
+
+# else enkel gebruiken voor moeilijkste code (makkelijkste manier om 'speler 2 wint' enkel in else vermelden)
+# -> elif speler_1 == 'steen' and speler_2 == 'schaar'
+#       'speler 1 wint'
