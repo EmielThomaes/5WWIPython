@@ -16,8 +16,6 @@ middelste_ds_aanvaller = (dobbelsteen_1_aanvaller + dobbelsteen_2_aanvaller + do
 grootste_ds_verdediger = max (dobbelsteen_1_verdediger,dobbelsteen_2_verdediger)
 kleinste_ds_verdediger = min(dobbelsteen_1_verdediger,dobbelsteen_2_verdediger)
 
-if grootste_ds_aanvaller > grootste_ds_verdediger:
-    /
 
 # uitvoer
 
