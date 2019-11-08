@@ -18,5 +18,13 @@ kleinste_ds_verdediger = min(dobbelsteen_1_verdediger,dobbelsteen_2_verdediger)
 
 if grootste_ds_aanvaller > grootste_ds_verdediger:
     /
+
 # uitvoer
 
+
+
+# maximum = max(x1, x2, x3, x4)
+# minimum = min(x1, x2, x3, x4)
+# mid_1 = max(min(x1, x2), min(x2, x3), min(x1, x3))
+# mid_2 = x1 + x2 + x3 + x4 - minimum - maximum - mid_1
+# print(maximum, max(mid_1, mid_2), min(mid_1, mid_2), minimum
