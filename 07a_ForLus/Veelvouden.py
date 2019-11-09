@@ -6,11 +6,9 @@ getal = int(input('geef een getal: '))
 
 uitkomst = 0
 
-for veelvoud in range(getal, 100, getal):
+for veelvoud in range(getal, 101, getal):
     uitkomst += veelvoud
 
 # uitvoer
 
 print(uitkomst)
-
-
