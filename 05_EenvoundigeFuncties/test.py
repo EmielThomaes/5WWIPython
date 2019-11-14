@@ -23,8 +23,6 @@ print(uitvoer.format(1, pow(2, 0.5), 2))
 uitvoer = '{:d} + {:^9.2f} = {:d}'
 print(uitvoer.format(1, pow(2, 0.5), 2))
 
-
-
 from math import sqrt
 print(sqrt(2))
 
