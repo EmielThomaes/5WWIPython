@@ -33,9 +33,17 @@ netto_jaarsalaris = netto_belastbaar_inkomen - voorheffing
 netto_maandsalaris = netto_jaarsalaris / 12
 
 uitvoer_1 = '+ bruto jaarsalaris {:>10.2f}'
-uitvoer_2 = '- rsz {:>25.2f}'
-uitvoer_3 = '- voorheffing {:>17.2f}'
-uitvoer_4 =
+uitvoer_2 = '- rsz {:>24.2f}'
+uitvoer_3 = '- voorheffing {:>16.2f}'
+uitvoer_4 = '=============================='
+uitvoer_5 = '+ netto jaarsalaris {:>10.2f}'
+uitvoer_6 = '+ netto maandsalaris {:9.2f}'
+
 # uitvoer
 
 print(uitvoer_1.format(bruto_jaarsalaris))
+print(uitvoer_2.format(rsz_bijdrage))
+print(uitvoer_3.format(voorheffing))
+print(uitvoer_4)
+print(uitvoer_5.format(netto_jaarsalaris))
+print(uitvoer_6.format(netto_maandsalaris))
