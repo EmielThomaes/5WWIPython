@@ -6,8 +6,8 @@ nde_getal = int(input('n = '))
 
 uitkomst = 0
 
-for i in range(nde_getal + 1):
-    uitkomst += (i - 1) + (i - 2)
+for i in range(nde_getal):
+    uitkomst = (i - 1) + (i - 2)
 
 # uitvoer
 
