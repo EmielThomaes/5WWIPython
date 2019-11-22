@@ -12,4 +12,3 @@ for veelvoud in range(getal, 101, getal):
 # uitvoer
 
 print(uitkomst)
-
