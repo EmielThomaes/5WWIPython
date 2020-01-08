@@ -4,11 +4,9 @@ nde_getal = int(input('n = '))
 
 # berekening
 
-uitkomst = 0
+uitkomst = 1
 
-for i in range(nde_getal):
-    uitkomst = (i - 1) + (i - 2)
-
-# uitvoer
+for n in range:
+    uitkomst = uitkomst + (n - 1) + (n - 2)
 
 print(uitkomst)
