@@ -6,5 +6,6 @@ aantal_basen = int(input('aantal basen = '))
 
 for i in range(aantal_basen):
     i = input('base = ')
+    if i
 
 # uitvoer
