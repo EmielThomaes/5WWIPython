@@ -5,11 +5,11 @@ nde_getal = int(input('n = '))
 # berekening
 
 f_1 = 1
-f_2 = 1
+f_2 = 0
 
-uitkomst = 1
-
-for n in range(3, nde_getal + 1):
-    uitkomst = uitkomst + (n - 1) + (n - 2)
+for n in range(nde_getal):
+    uitkomst = f_1 + f_2
+    f_1 = uitkomst - f_1
+    f_2 = uitkomst
 
 print(uitkomst)
