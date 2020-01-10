@@ -13,6 +13,6 @@ while som_termen < getal:
     term /= 2
     aantal_termen += 1
 
-#invoer
+# uitvoer
 
 print(aantal_termen, som_termen)
