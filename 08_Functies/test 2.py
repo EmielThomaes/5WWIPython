@@ -1,3 +1,5 @@
+# om problemen te vermijden, def altijd bovenaan programma schrijven (goede attitude)
+
 def welkom(naam):
     print('Welkom terug ' + naam)
 
@@ -51,3 +53,17 @@ print(wortel1, wortel2)
 
 print('')
 
+from random import randint
+
+def gooi_muntstuk():
+    rg = randint(0, 2)
+# kortere manier: else verwijderen en onder rg, muntstuk = 'munt' plaatsen
+    if rg == 0:
+        muntstuk = 'kop'
+    else:
+        muntstuk = 'munt'
+    return muntstuk
+
+for i in range(10):
+    print(gooi_muntstuk())
+# print(rg, muntstuk), zie opm. slides
