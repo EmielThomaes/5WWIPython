@@ -3,9 +3,14 @@ def is_letter(t):
 
 
 def roteer_letter(letter, aantal_plaatsen):
-    if ord(letter) + aantal_plaatsen > 122:
-        aantal_plaatsen = (ord(letter) + aantal_plaatsen) - 122
-        nieuwe_letter = chr(ord('a') + aantal_plaatsen - 1)
-    return nieuwe_letter
+    # volgnummer in het alfabet bepaald van de gegeven leeter
+    volgnummer_letter = min(ord(letter)) % ord('a'), ord(letter) % ord('A')
+    # volgnummer in alfabet van nieuwe letter
+    nieuw_volgnummer = (volgnummer_letter + aantal_plaatsen) % 26
+    # offset
+    offset = nieuw_volgnummer - volgnummer_letter
+    return chr(ord(letter) + offset)
+    # if en else is ook mogelijk
 
-print(roteer_letter('z', 22))
+def versleutel(woord, n):
+    rotatie = ''
