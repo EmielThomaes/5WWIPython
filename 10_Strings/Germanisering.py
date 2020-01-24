@@ -7,7 +7,7 @@ def germaniseer(zin):
     nieuwe_zin = ''
     for i in range (0, len(zin)):
         if zin[i] == ' ':
-            nieuwe_zin += zin[i+1].upper()
+            nieuwe_zin += ' ' + zin[i+1].upper()
         else:
             nieuwe_zin += zin[i]
     return nieuwe_zin
