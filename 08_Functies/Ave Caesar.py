@@ -14,3 +14,4 @@ def roteer_letter(letter, aantal_plaatsen):
 
 def versleutel(woord, n):
     rotatie = ''
+    # for-lus
