@@ -1,0 +1,2 @@
+def germaniseer(zin):
+

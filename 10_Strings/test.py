@@ -51,3 +51,5 @@ for i in range(0, len(woord)):
         woord = woord[:i] + '*' + woord[i + 1:]
 
 print(woord)
+
+print('')
