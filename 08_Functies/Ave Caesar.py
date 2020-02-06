@@ -1,17 +1,23 @@
 def is_letter(t):
     return ord('a') <= ord(t) <= ord('z') or ord('A') <= ord(t) <= ord('Z')
 
+def roteer_letter(t, aantal):
+    if str(is_letter(t)) == 'True':
+        letter = ord(t) + aantal
+        if ord('a') <= ord(t) <= ord('z'):
+            if not ord('a') <= letter <= ord('z'):
+                letter -= 26
+        elif ord('A') <= ord(t) <= ord('Z'):
+            if not ord('A') <= letter <= ord('Z'):
+                letter -= 26
+    else:
+        letter = ord(t)
 
-def roteer_letter(letter, aantal_plaatsen):
-    # volgnummer in het alfabet bepaald van de gegeven leeter
-    volgnummer_letter = min(ord(letter)) % ord('a'), ord(letter) % ord('A')
-    # volgnummer in alfabet van nieuwe letter
-    nieuw_volgnummer = (volgnummer_letter + aantal_plaatsen) % 26
-    # offset
-    offset = nieuw_volgnummer - volgnummer_letter
-    return chr(ord(letter) + offset)
-    # if en else is ook mogelijk
+    return chr(letter)
 
-def versleutel(woord, n):
-    rotatie = ''
-    # for-lus
+def versleutel(zin, aantal):
+    uitkomst = ''
+    for t in zin:
+        uitkomst += roteer_letter(t, aantal)
+
+    return uitkomst
