@@ -36,6 +36,5 @@ def kaprekar(getal):
         cijfer_1, cijfer_2 = op_af_getallen(laagste, mid_laag, mid_hoog, hoogste)
         getal = int(verschil(cijfer_2, cijfer_1))
         uitkomst += '{} - {} = {}\n'.format(cijfer_2, cijfer_1, getal)
-
     return uitkomst.strip()
 
