@@ -21,4 +21,3 @@ def varkenslatijn(woord):
     return vertaald_woord
 
 def vertaal(zin):
-
