@@ -19,5 +19,3 @@ def varkenslatijn(woord):
     vertaald_woord.replace('z', '')
     vertaald_woord.replace('y', '')
     return vertaald_woord
-
-def vertaal(zin):
